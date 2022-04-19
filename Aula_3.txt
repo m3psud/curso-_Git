@@ -1,0 +1,78 @@
+    1  git init
+    2  git add Readme.md
+    3  git status
+    4  git commit-m"Primeiro commit"
+    5  git commit -m "primeiro commit"
+    6  git status
+    7  git init
+    8  git add
+    9  git add Readme.md
+   10  git status
+   11  git branch -M "main"
+   12  git status
+   13  git remote add origin https://github.com/m3psud/projetoGit.git
+   14  git push -u origin main
+   15  clear
+   16  git add .
+   17  git status
+   18  git commit m "criação de projeto"
+   19  git commit -m "criação de projeto"
+   20  git push origin main
+   21  clear
+   22  git checkout -b "novo-botao"
+   23  git add .
+   24  git commit -m "novo botao"
+   25  git push origin novo-botao
+   26  git checkout main
+   27  git checkout novo-botao
+   28  git checkout main
+   29  git merge novo-botao
+   30  git push origin main
+   31  git clone https://github.com/rafaballerini/GitTutorial.git
+   32  clear
+   33  git clone https://github.com/rafaballerini/GitTutorial.git
+   34  git init
+   35  git add html
+   36  git status
+   37  git commit -m "formulario html"
+   38  git status
+   39  git branch -M "main"
+   40  git config --globaluser.name 'mildred morales'
+   41  clEAR
+   42  git config --global user.name 'mildred morales'
+   43  git config --global user.email 'mildredmoralesalmeida1503@gmail.com'
+   44  git config user.name
+   45  cd desktop/
+   46  mkdir curso_Git
+   47  cd curso_Git/
+   48  git config user.name
+   49  git init
+   50  git status
+   51  echo '#Aprendendo usar o Git' > readme.md
+   52  git status
+   53  git add readme.md
+   54  git status
+   55  git commit -m 'commit inicial'
+   56  git status
+   57  echo '##Aula 1'>> readme.md
+   58  git status
+   59  echo 'mildred morales' > participantes.txt
+   60  git status
+   61  git add.
+   62  git status
+   63  git add .
+   64  git status
+   65  git restore --stage participantes.txt
+   66  git status
+   67  git add.participantes.txt
+   68  git add. participantes.txt
+   69  git add participantes.txt
+   70  git status
+   71  git restore --stage .
+   72  git status
+   73  git commit -am 'Alteração no readme'
+   74  git status
+   75  git add participantes.txt
+   76  git status
+   77  git commit -m 'adicionado participantes.txt'
+   78  history > Aula_3.txt
