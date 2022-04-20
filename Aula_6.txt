@@ -1,0 +1,89 @@
+    1  git init
+    2  git add Readme.md
+    3  git status
+    4  git commit-m"Primeiro commit"
+    5  git commit -m "primeiro commit"
+    6  git status
+    7  git init
+    8  git add
+    9  git add Readme.md
+   10  git status
+   11  git branch -M "main"
+   12  git status
+   13  git remote add origin https://github.com/m3psud/projetoGit.git
+   14  git push -u origin main
+   15  clear
+   16  git add .
+   17  git status
+   18  git commit m "criação de projeto"
+   19  git commit -m "criação de projeto"
+   20  git push origin main
+   21  clear
+   22  git checkout -b "novo-botao"
+   23  git add .
+   24  git commit -m "novo botao"
+   25  git push origin novo-botao
+   26  git checkout main
+   27  git checkout novo-botao
+   28  git checkout main
+   29  git merge novo-botao
+   30  git push origin main
+   31  git clone https://github.com/rafaballerini/GitTutorial.git
+   32  clear
+   33  git clone https://github.com/rafaballerini/GitTutorial.git
+   34  git init
+   35  git add html
+   36  git status
+   37  git commit -m "formulario html"
+   38  git status
+   39  git branch -M "main"
+   40  clear
+   41  git log
+   42  git branch
+   43  cd curso_Git
+   44  cd 'curso_Git'
+   45  q
+   46  clear
+   47  git branch
+   48  git checkout -b feature
+   49  git branch
+   50  touch nova_feature
+   51  git status
+   52  git add nova_feature
+   53  git commit -m 'Adicionando nova feature'
+   54  git log
+   55  git checkout master
+   56  gt status
+   57  git log
+   58  touch continuando_master
+   59  git add continuando_master
+   60  git commit -m ' Adicionando continuaçao na master'
+   61  git log
+   62  git checkout feature
+   63  git log
+   64  git checkout -b feature2 master
+   65  git log
+   66  git checkout -d feature2
+   67  git log
+   68  git branch -d feature2
+   69  git checkout master
+   70  git branch -d feature2
+   71  git log
+   72  git checkout feature
+   73  git log --prety=online --graph
+   74  git log --pretty=online --graph
+   75  git log --pretty=oneline --graph
+   76  git merge master
+   77  git config --global alias.logpg 'log --pretty=oneline -- graph'
+   78  git logpg
+   79  git config --global alias.logpg 'log --pretty=oneline --graph'
+   80  git logpg
+   81  git config alias.CAM 'commit -am'
+   82  git CAM
+   83  git tag
+   84  git tag -a v0.1 -m 'Até a Aula 5'
+   85  git logpg
+   86  git checkout master
+   87  git rebase feature
+   88  git logpg
+   89  history >Aula_6.txt
